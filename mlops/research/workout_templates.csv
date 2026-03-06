@@ -1,0 +1,4 @@
+id,name,description,difficulty_level,estimated_duration_minutes,target_muscle_groups,created_at,workout_type
+6fb6f05b-e9b3-49b2-afb7-ac99187a2e7b,Muscle Gain Weekly Plan,4-day split workout plan focusing on muscle hypertrophy with compound movements,Intermediate,60,"['Chest', 'Back', 'Legs', 'Shoulders', 'Arms']",2026-01-02T14:11:08.621479,Muscle Gain
+666b7014-b672-4a13-8571-c885d96ef2de,Weight Loss Fat Burn Plan,High-intensity cardio and circuit training focused on calorie burn and metabolic boost,Intermediate,45,"['Full Body', 'Core', 'Cardiovascular']",2026-01-02T14:11:08.621479,Weight Loss
+a20edc23-dea2-41d7-aff0-49ae738ec7b0,Six-Pack Abs Development Plan,Core-focused workout plan targeting abdominal definition and core strength,Intermediate-Advanced,50,"['Abs', 'Obliques', 'Core', 'Full Body']",2026-01-02T14:11:08.621479,Six-Pack Gain

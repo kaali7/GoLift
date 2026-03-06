@@ -1,0 +1,136 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      fill: #333;
+    }
+  </style>
+  
+  <!-- Left side: Start position -->
+  <g transform="translate(100, 100)">
+    
+    <!-- Equipment: Simple machine frame -->
+    <rect x="0" y="0" width="200" height="10" fill="#555"/>
+    <rect x="0" y="0" width="10" height="150" fill="#555"/>
+    <rect x="190" y="0" width="10" height="150" fill="#555"/>
+    
+    <!-- Cable lines -->
+    <line x1="50" y1="0" x2="50" y2="80" stroke="#777" stroke-width="2" stroke-dasharray="4,2"/>
+    <line x1="150" y1="0" x2="150" y2="80" stroke="#777" stroke-width="2" stroke-dasharray="4,2"/>
+    
+    <!-- Bar -->
+    <rect x="40" y="80" width="70" height="6" fill="#333" rx="3"/>
+    <rect x="40" y="80" width="70" height="15" fill="#666" rx="2"/>
+    
+    <!-- Person: Start position (arms extended up) -->
+    <!-- Head -->
+    <circle cx="100" cy="120" r="12" fill="#ffcc99"/>
+    
+    <!-- Torso -->
+    <rect x="88" y="132" width="24" height="50" fill="#4a86e8" rx="3"/>
+    
+    <!-- Arms (extended upward for reverse grip) -->
+    <!-- Left arm -->
+    <rect x="88" y="132" width="8" height="40" fill="#4a86e8" rx="4">
+      <animateTransform attributeName="transform" type="rotate" from="0 92 152" to="-20 92 152" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    
+    <!-- Right arm -->
+    <rect x="104" y="132" width="8" height="40" fill="#4a86e8" rx="4">
+      <animateTransform attributeName="transform" type="rotate" from="0 108 152" to="20 108 152" dur="2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    
+    <!-- Hands (reverse grip) -->
+    <circle cx="92" cy="172" r="6" fill="#ffcc99"/>
+    <circle cx="108" cy="172" r="6" fill="#ffcc99"/>
+    
+    <!-- Highlight: Grip orientation -->
+    <circle cx="92" cy="172" r="3" fill="#ff6b6b"/>
+    <circle cx="108" cy="172" r="3" fill="#ff6b6b"/>
+    
+    <!-- Legs -->
+    <rect x="95" y="182" width="5" height="40" fill="#2c3e50" rx="2"/>
+    <rect x="100" y="182" width="5" height="40" fill="#2c3e50" rx="2"/>
+    
+    <!-- Label: Start -->
+    <text x="100" y="240" text-anchor="middle" font-weight="bold">Start Position</text>
+    <text x="100" y="255" text-anchor="middle">Arms Extended</text>
+  </g>
+  
+  <!-- Right side: End position -->
+  <g transform="translate(500, 100)">
+    
+    <!-- Equipment: Same machine frame -->
+    <rect x="0" y="0" width="200" height="10" fill="#555"/>
+    <rect x="0" y="0" width="10" height="150" fill="#555"/>
+    <rect x="190" y="0" width="10" height="150" fill="#555"/>
+    
+    <!-- Cable lines (pulled down) -->
+    <line x1="50" y1="0" x2="50" y2="140" stroke="#777" stroke-width="2"/>
+    <line x1="150" y1="0" x2="150" y2="140" stroke="#777" stroke-width="2"/>
+    
+    <!-- Bar (pulled down) -->
+    <rect x="40" y="140" width="70" height="6" fill="#333" rx="3"/>
+    <rect x="40" y="140" width="70" height="15" fill="#666" rx="2"/>
+    
+    <!-- Person: End position (bar pulled to chest) -->
+    <!-- Head -->
+    <circle cx="100" cy="120" r="12" fill="#ffcc99"/>
+    
+    <!-- Torso with lat emphasis -->
+    <rect x="88" y="132" width="24" height="50" fill="#4a86e8" rx="3"/>
+    
+    <!-- Lat muscles highlight -->
+    <path d="M 100 140 Q 85 160 88 180" fill="none" stroke="#e74c3c" stroke-width="3"/>
+    <path d="M 100 140 Q 115 160 112 180" fill="none" stroke="#e74c3c" stroke-width="3"/>
+    
+    <!-- Arms (bent, bar at chest) -->
+    <!-- Left arm -->
+    <rect x="88" y="132" width="8" height="30" fill="#4a86e8" rx="4" transform="rotate(-45 92 147)"/>
+    
+    <!-- Right arm -->
+    <rect x="104" y="132" width="8" height="30" fill="#4a86e8" rx="4" transform="rotate(45 108 147)"/>
+    
+    <!-- Biceps highlight -->
+    <circle cx="85" cy="150" r="5" fill="#e74c3c" opacity="0.8"/>
+    <circle cx="115" cy="150" r="5" fill="#e74c3c" opacity="0.8"/>
+    
+    <!-- Hands (maintaining reverse grip) -->
+    <circle cx="85" cy="160" r="6" fill="#ffcc99"/>
+    <circle cx="115" cy="160" r="6" fill="#ffcc99"/>
+    
+    <!-- Legs -->
+    <rect x="95" y="182" width="5" height="40" fill="#2c3e50" rx="2"/>
+    <rect x="100" y="182" width="5" height="40" fill="#2c3e50" rx="2"/>
+    
+    <!-- Label: End -->
+    <text x="100" y="240" text-anchor="middle" font-weight="bold">Finish Position</text>
+    <text x="100" y="255" text-anchor="middle">Bar to Chest</text>
+  </g>
+  
+  <!-- Center: Diagram key -->
+  <g transform="translate(350, 300)">
+    
+    <!-- Muscle activation key -->
+    <circle cx="-30" cy="0" r="8" fill="#e74c3c"/>
+    <text x="-15" y="5">Primary: Latissimus Dorsi</text>
+    
+    <circle cx="-30" cy="20" r="6" fill="#e74c3c" opacity="0.8"/>
+    <text x="-15" y="25">Secondary: Biceps</text>
+    
+    <circle cx="-30" cy="40" r="4" fill="#ff6b6b"/>
+    <text x="-15" y="45">Grip: Reverse (Supinated)</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">
+    Reverse Grip Machine Lat Pulldown
+  </text>
+  
+  <!-- Motion arrow -->
+  <g transform="translate(350, 180)">
+    <path d="M -50 0 L 50 0 M 40 -10 L 50 0 L 40 10" stroke="#333" stroke-width="3" fill="none"/>
+    <text x="0" y="-20" text-anchor="middle" font-size="12">Pull Down</text>
+  </g>
+</svg>

@@ -1,0 +1,160 @@
+workout_day,day_number,exercise_name,stage_of_exercises,sequence_order,sets,reps,weight,rest_seconds,notes,workout_type
+Day 1: Upper Body Push,1,Arm Circles,warmup,1,2,30 sec,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 1: Upper Body Push,1,Jumping Jacks,warmup,2,2,30 sec,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 1: Upper Body Push,1,Cat-Cow Stretch,warmup,3,2,10,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 1: Upper Body Push,1,Bench Press,main,1,4,8-10,Progressive overload,90,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 1: Upper Body Push,1,Overhead Press,main,2,4,8-10,Progressive overload,90,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 1: Upper Body Push,1,Incline Dumbbell Press,main,3,3,10-12,Progressive overload,75,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 1: Upper Body Push,1,Tricep Dips,main,4,3,10-15,Progressive overload,60,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 1: Upper Body Push,1,Lateral Raises,main,5,3,12-15,Progressive overload,60,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 1: Upper Body Push,1,Chest Stretch,relax,1,1,30 sec,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 1: Upper Body Push,1,Tricep Stretch,relax,2,1,30 sec each,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 1: Upper Body Push,1,Shoulder Rolls,relax,3,2,10,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 2: Lower Body,2,Leg Swings,warmup,1,2,15 each,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 2: Lower Body,2,Bodyweight Squats,warmup,2,2,15,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 2: Lower Body,2,Hip Circles,warmup,3,2,10 each way,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 2: Lower Body,2,Barbell Squats,main,1,4,6-8,Progressive overload,120,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 2: Lower Body,2,Romanian Deadlifts,main,2,4,8-10,Progressive overload,90,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 2: Lower Body,2,Leg Press,main,3,3,10-12,Progressive overload,75,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 2: Lower Body,2,Leg Curls,main,4,3,12-15,Progressive overload,60,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 2: Lower Body,2,Calf Raises,main,5,4,15-20,Progressive overload,60,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 2: Lower Body,2,Quad Stretch,relax,1,1,30 sec each,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 2: Lower Body,2,Hamstring Stretch,relax,2,1,30 sec each,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 2: Lower Body,2,Pigeon Pose,relax,3,1,30 sec each,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 3: Active Recovery,3,Light Cardio,recovery,1,1,20-30 min,N/A,0,Muscle Gain - Recovery: Walking or cycling,Muscle Gain
+Day 3: Active Recovery,3,Stretching,recovery,2,1,10-15 min,N/A,0,Muscle Gain - Recovery: Full body stretching,Muscle Gain
+Day 3: Active Recovery,3,Foam Rolling,recovery,3,1,10 min,N/A,0,Muscle Gain - Recovery: Major muscle groups,Muscle Gain
+Day 4: Upper Body Pull,4,Band Pull-Aparts,warmup,1,2,15,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 4: Upper Body Pull,4,Scapular Wall Slides,warmup,2,2,10,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 4: Upper Body Pull,4,Neck Tilts,warmup,3,2,10 each,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 4: Upper Body Pull,4,Pull-ups,main,1,4,max,Progressive overload,90,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 4: Upper Body Pull,4,Bent-over Rows,main,2,4,8-10,Progressive overload,90,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 4: Upper Body Pull,4,Lat Pulldowns,main,3,3,10-12,Progressive overload,75,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 4: Upper Body Pull,4,Barbell Curls,main,4,3,10-12,Progressive overload,60,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 4: Upper Body Pull,4,Face Pulls,main,5,3,15-20,Progressive overload,60,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 4: Upper Body Pull,4,Lat Stretch,relax,1,1,30 sec each,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 4: Upper Body Pull,4,Bicep Stretch,relax,2,1,30 sec each,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 4: Upper Body Pull,4,Child's Pose,relax,3,1,60 sec,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 5: Full Body,5,High Knees,warmup,1,2,30 sec,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 5: Full Body,5,Torso Twists,warmup,2,2,15 each,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 5: Full Body,5,Arm Swings,warmup,3,2,15,Bodyweight,30,Muscle Gain - Warmup: Focus on form and mobility,Muscle Gain
+Day 5: Full Body,5,Deadlifts,main,1,3,5-7,Progressive overload,120,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 5: Full Body,5,Dumbbell Lunges,main,2,3,10-12 each,Progressive overload,75,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 5: Full Body,5,Push-ups,main,3,3,max,Progressive overload,60,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 5: Full Body,5,Seated Cable Rows,main,4,3,10-12,Progressive overload,75,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 5: Full Body,5,Plank,main,5,3,60 sec,Bodyweight,60,Muscle Gain - Main: Focus on intensity and form,Muscle Gain
+Day 5: Full Body,5,Full Body Stretch,relax,1,1,60 sec,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 5: Full Body,5,Deep Breathing,relax,2,1,2 min,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 5: Full Body,5,Legs Up the Wall,relax,3,1,5 min,Bodyweight,0,Muscle Gain - Cool down: Focus on recovery,Muscle Gain
+Day 6: Recovery,6,Light Cardio,recovery,1,1,20-30 min,N/A,0,Muscle Gain - Recovery: Walking or cycling,Muscle Gain
+Day 6: Recovery,6,Stretching,recovery,2,1,10-15 min,N/A,0,Muscle Gain - Recovery: Full body stretching,Muscle Gain
+Day 6: Recovery,6,Foam Rolling,recovery,3,1,10 min,N/A,0,Muscle Gain - Recovery: Major muscle groups,Muscle Gain
+Day 7: Recovery,7,Light Cardio,recovery,1,1,20-30 min,N/A,0,Muscle Gain - Recovery: Walking or cycling,Muscle Gain
+Day 7: Recovery,7,Stretching,recovery,2,1,10-15 min,N/A,0,Muscle Gain - Recovery: Full body stretching,Muscle Gain
+Day 7: Recovery,7,Foam Rolling,recovery,3,1,10 min,N/A,0,Muscle Gain - Recovery: Major muscle groups,Muscle Gain
+Day 1: HIIT Cardio + Full Body,1,Jump Rope,warmup,1,3,60 sec,Bodyweight,20,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,High Knees,warmup,2,2,45 sec,Bodyweight,20,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Dynamic Stretching,warmup,3,2,30 sec each,Bodyweight,15,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Burpees,main,1,4,15,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Kettlebell Swings,main,2,4,20,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Mountain Climbers,main,3,4,30 sec,Bodyweight,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Box Jumps,main,4,4,12,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Battle Ropes,main,5,4,30 sec,Bodyweight,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Standing Quad Stretch,relax,1,1,30 sec each,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Hamstring Stretch,relax,2,1,30 sec each,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 1: HIIT Cardio + Full Body,1,Deep Breathing,relax,3,1,2 min,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 2: Cardio + Core,2,Torso Twists,warmup,1,2,20,Bodyweight,20,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 2: Cardio + Core,2,Leg Swings,warmup,2,2,15 each,Bodyweight,20,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 2: Cardio + Core,2,Arm Circles,warmup,3,2,30 sec,Bodyweight,15,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 2: Cardio + Core,2,Running/Sprints,main,1,1,20 min intervals,Bodyweight,0,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 2: Cardio + Core,2,Bicycle Crunches,main,2,4,25,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 2: Cardio + Core,2,Russian Twists,main,3,4,20 each side,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 2: Cardio + Core,2,Plank Variations,main,4,4,45 sec each,Bodyweight,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 2: Cardio + Core,2,Leg Raises,main,5,4,20,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 2: Cardio + Core,2,Cobra Stretch,relax,1,1,30 sec,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 2: Cardio + Core,2,Child's Pose,relax,2,1,60 sec,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 2: Cardio + Core,2,Cat-Cow Stretch,relax,3,2,10,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 3: Active Recovery,3,Brisk Walking,recovery,1,1,45 min,N/A,0,Weight Loss - Recovery: Low-impact cardio,Weight Loss
+Day 3: Active Recovery,3,Yoga/Stretching,recovery,2,1,30 min,N/A,0,Weight Loss - Recovery: Gentle flow and mobility,Weight Loss
+Day 3: Active Recovery,3,Foam Rolling,recovery,3,1,15 min,N/A,0,Weight Loss - Recovery: Full body myofascial release,Weight Loss
+Day 4: Strength & Cardio Combo,4,Jumping Jacks,warmup,1,3,45 sec,Bodyweight,20,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 4: Strength & Cardio Combo,4,Bodyweight Squats,warmup,2,2,20,Bodyweight,20,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 4: Strength & Cardio Combo,4,Arm Swings,warmup,3,2,15,Bodyweight,15,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 4: Strength & Cardio Combo,4,Squat to Press,main,1,4,15,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 4: Strength & Cardio Combo,4,Renegade Rows,main,2,4,12 each side,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 4: Strength & Cardio Combo,4,Jump Lunges,main,3,4,16,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 4: Strength & Cardio Combo,4,Push-up to Plank Jack,main,4,4,12,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 4: Strength & Cardio Combo,4,Skater Jumps,main,5,4,20,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 4: Strength & Cardio Combo,4,Hip Flexor Stretch,relax,1,1,30 sec each,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 4: Strength & Cardio Combo,4,Chest Opener,relax,2,1,30 sec,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 4: Strength & Cardio Combo,4,Standing Forward Fold,relax,3,1,60 sec,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 5: Endurance Cardio,5,Light Jog,warmup,1,1,5 min,Bodyweight,0,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 5: Endurance Cardio,5,Dynamic Leg Swings,warmup,2,2,15 each,Bodyweight,20,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 5: Endurance Cardio,5,Shoulder Rolls,warmup,3,2,10,Bodyweight,15,Weight Loss - Warmup: Focus on form and mobility,Weight Loss
+Day 5: Endurance Cardio,5,Cycling/Rowing,main,1,1,30 min steady,Bodyweight,0,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 5: Endurance Cardio,5,Jump Squats,main,2,4,15,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 5: Endurance Cardio,5,Bear Crawls,main,3,4,30 sec,Bodyweight,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 5: Endurance Cardio,5,Side Plank Dips,main,4,4,15 each side,Progressive overload,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 5: Endurance Cardio,5,Wall Sits,main,5,4,60 sec,Bodyweight,45,Weight Loss - Main: Focus on intensity and form,Weight Loss
+Day 5: Endurance Cardio,5,Figure-4 Stretch,relax,1,1,30 sec each,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 5: Endurance Cardio,5,Upper Back Stretch,relax,2,1,30 sec,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 5: Endurance Cardio,5,Seated Meditation,relax,3,1,3 min,Bodyweight,0,Weight Loss - Cool down: Focus on recovery,Weight Loss
+Day 6: Active Rest,6,Brisk Walking,recovery,1,1,45 min,N/A,0,Weight Loss - Recovery: Low-impact cardio,Weight Loss
+Day 6: Active Rest,6,Yoga/Stretching,recovery,2,1,30 min,N/A,0,Weight Loss - Recovery: Gentle flow and mobility,Weight Loss
+Day 6: Active Rest,6,Foam Rolling,recovery,3,1,15 min,N/A,0,Weight Loss - Recovery: Full body myofascial release,Weight Loss
+Day 7: Active Rest,7,Brisk Walking,recovery,1,1,45 min,N/A,0,Weight Loss - Recovery: Low-impact cardio,Weight Loss
+Day 7: Active Rest,7,Yoga/Stretching,recovery,2,1,30 min,N/A,0,Weight Loss - Recovery: Gentle flow and mobility,Weight Loss
+Day 7: Active Rest,7,Foam Rolling,recovery,3,1,15 min,N/A,0,Weight Loss - Recovery: Full body myofascial release,Weight Loss
+Day 1: Core Focus + Cardio,1,Cat-Cow Stretch,warmup,1,2,10,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Bird-Dog,warmup,2,2,10 each side,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Dead Bugs,warmup,3,2,10,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Hanging Leg Raises,main,1,4,15,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Ab Wheel Rollouts,main,2,4,12,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Cable Crunches,main,3,4,20,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,L-Sit Holds,main,4,4,30 sec,Bodyweight,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Dragon Flags,main,5,4,8,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Cobra Stretch,relax,1,1,30 sec,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Seated Forward Fold,relax,2,1,60 sec,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 1: Core Focus + Cardio,1,Supine Twist,relax,3,1,30 sec each,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Plank to Down Dog,warmup,1,2,10,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Side Plank Hip Dips,warmup,2,2,10 each,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,High Plank Shoulder Taps,warmup,3,2,20,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Deadlifts,main,1,4,8,Progressive overload,90,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Overhead Press,main,2,4,10,Progressive overload,90,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Pull-ups,main,3,4,max,Progressive overload,90,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Pallof Press,main,4,4,12 each side,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Windshield Wipers,main,5,4,10 each side,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Child's Pose with Side Stretch,relax,1,1,30 sec each,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Pigeon Pose,relax,2,1,30 sec each,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 2: Full Body + Core Activation,2,Diaphragmatic Breathing,relax,3,1,3 min,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 3: Active Recovery,3,Core Stability Work,recovery,1,1,20 min,N/A,0,Six-Pack Gain - Recovery: Light core activation,Six-Pack Gain
+Day 3: Active Recovery,3,Light Cardio,recovery,2,1,30 min,N/A,0,Six-Pack Gain - Recovery: Brisk walk or cycling,Six-Pack Gain
+Day 3: Active Recovery,3,Mobility Drills,recovery,3,1,15 min,N/A,0,Six-Pack Gain - Recovery: Joint mobility and stretching,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Russian Twist (light),warmup,1,2,20,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Side Bend Stretch,warmup,2,2,10 each,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Torso Rotations,warmup,3,2,15 each way,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Side Plank Raises,main,1,4,15 each side,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Woodchoppers,main,2,4,12 each side,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Bicycle Crunches,main,3,4,30,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Hanging Knee Tucks with Twist,main,4,4,12 each side,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Landmine 180s,main,5,4,10 each side,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Seated Spinal Twist,relax,1,1,30 sec each,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Happy Baby Pose,relax,2,1,60 sec,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 4: Obliques & Anti-Rotation,4,Supine Figure-4,relax,3,1,30 sec each,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Reverse Crunches,warmup,1,2,15,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Leg Lowering,warmup,2,2,10,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Scissor Kicks,warmup,3,2,20,Bodyweight,20,Six-Pack Gain - Warmup: Focus on form and mobility,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Front Squats,main,1,4,8,Progressive overload,90,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Push-ups with Rotation,main,2,4,12 each side,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,"Plank Variations (RKC, Side, Reverse)",main,3,4,45 sec each,Bodyweight,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,V-Ups,main,4,4,15,Progressive overload,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Vacuum Holds,main,5,4,30 sec,Bodyweight,60,Six-Pack Gain - Main: Focus on intensity and form,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Supine Hamstring Stretch,relax,1,1,30 sec each,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Prayer Stretch,relax,2,1,60 sec,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 5: Lower Abs & Compound,5,Deep Core Breathing,relax,3,1,3 min,Bodyweight,0,Six-Pack Gain - Cool down: Focus on recovery,Six-Pack Gain
+Day 6: Recovery & Light Core,6,Core Stability Work,recovery,1,1,20 min,N/A,0,Six-Pack Gain - Recovery: Light core activation,Six-Pack Gain
+Day 6: Recovery & Light Core,6,Light Cardio,recovery,2,1,30 min,N/A,0,Six-Pack Gain - Recovery: Brisk walk or cycling,Six-Pack Gain
+Day 6: Recovery & Light Core,6,Mobility Drills,recovery,3,1,15 min,N/A,0,Six-Pack Gain - Recovery: Joint mobility and stretching,Six-Pack Gain
+Day 7: Recovery & Light Core,7,Core Stability Work,recovery,1,1,20 min,N/A,0,Six-Pack Gain - Recovery: Light core activation,Six-Pack Gain
+Day 7: Recovery & Light Core,7,Light Cardio,recovery,2,1,30 min,N/A,0,Six-Pack Gain - Recovery: Brisk walk or cycling,Six-Pack Gain
+Day 7: Recovery & Light Core,7,Mobility Drills,recovery,3,1,15 min,N/A,0,Six-Pack Gain - Recovery: Joint mobility and stretching,Six-Pack Gain

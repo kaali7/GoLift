@@ -1,0 +1,6 @@
+user_id,exercise_id,muscle_group,body_part,difficulty_level,equipment,experience_level,session_date,day_type,sets_planned,reps_planned,weight_planned,sets_completed,reps_completed,weight_used,avg_completion_last_3,avg_rpe_last_3,avg_rest_time_last_3,volume_trend,days_since_last_session,next_sets,next_reps,next_weight
+101,45,quadriceps,legs,Intermediate,barbell,intermediate,2025-01-01,legs,4,8,80,4,8,80,0.95,7,120,0.1,3,4,8,85
+101,45,quadriceps,legs,Intermediate,barbell,intermediate,2025-01-05,legs,4,8,85,4,7,85,0.90,8,130,-0.05,4,4,6,85
+102,12,abs,waist,Beginner,body_weight,beginner,2025-01-02,abs,3,15,0,3,15,0,1.0,5,60,0.2,2,4,18,0
+103,60,glutes,legs,Advanced,barbell,advanced,2025-01-03,legs,5,5,120,5,5,120,0.98,8,150,0.15,5,5,4,125
+

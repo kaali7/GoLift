@@ -1,0 +1,107 @@
+# ==============================================================================
+# GoLift Global .gitignore
+# ==============================================================================
+
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+openai.json
+*.pem
+*.key
+credentials/
+google-services.json
+GoogleService-Info.plist
+
+# --- Node.js / Frontend / Landing ---
+node_modules/
+.next/
+dist/
+dist-ssr/
+out/
+build/
+.vercel
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp*
+.cache/
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Python / Backend / MLOps ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+*.egg-info/
+.python-version
+backend.egg-info/
+mlflow/
+mlruns/
+
+# --- Desktop (Tauri) ---
+src-tauri/target/
+src-tauri/gen/
+src-tauri/bin/
+
+# --- Mobile (React Native) ---
+android/app/build/
+android/.gradle/
+android/local.properties
+android/*.keystore
+!android/debug.keystore
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+ios/userdata/
+*.hprof
+*.jsbundle
+.metro-health-check*
+fastlane/report.xml
+fastlane/Preview.html
+
+# --- OS & IDEs ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.suo
+
+# --- Project Assets & Artifacts ---
+*.tldr
+image.png
+phone_imag/
+logs/
+*.log
+plan/
+plan.md
+promts.txt
+site_map.md
+theme.md
+
+
+# --- Agentic Coding Artifacts ---
+# Un-comment the next line if you want to exclude agent logs/brain from Git
+# .agents/
+# .agent/
+# .gemini/
+
+

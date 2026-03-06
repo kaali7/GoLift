@@ -1,0 +1,268 @@
+
+#--------------setup of mlops project-----#
+
+1.create setup.py and requirements.txt file
+
+from setuptools import setup, find_packages
+
+with open("requirements.txt", "r", encoding="utf-8") as fh:
+    requirements = fh.read().splitlines()
+
+setup(
+    name="EmoML",
+    version="0.1.0",
+    author="Kali",
+    author_email="kali@example.com",
+    description="A machine learning library for emotion recognition",
+    packages=find_packages(),
+    install_requires=requirements,
+    python_requires='>=3.7',
+)
+
+
+2.create logs folder and src/logger.py file
+import logging
+import os
+from datetime import datetime
+
+LOG_DIR = "logs"
+LOG_FILE = os.path.join(LOG_DIR, f"log_{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log")
+
+logging.basicConfig(
+    filename=LOG_FILE,
+    format=" %(asctime)s - %(levelname)s - %(message)s",
+    level=logging.INFO
+)
+
+def get_logger(name):
+    logger = logging.getLogger(name)
+    logger.setLevel(logging.INFO)
+    return logging
+
+
+# how to use any file
+from src.logger import get_logger
+
+logger = get_logger(__name__)
+
+logger.info("logging information: about step and there work")
+logger.error("logging information: about error accur")
+logger.warning("logging information: about warning accur")
+
+2.create custom_exception.py file
+
+import traceback
+import sys
+
+class CustomeException(Exception):
+    
+    def __init__(self, error_message, error_detail:sys):
+        super().__init__(error_message)
+        self.error_message = self.get_detailed_error_message(error_message, error_detail)
+
+    @staticmethod
+    def get_detailed_error_message(error_message, error_detail:sys):
+        _,_,exc_tb = error_detail.exc_info()
+        filename = exc_tb.tb_frame.f_code.co_filename
+        line_number =  exc_tb.tb_lineno
+        return f"Error in {filename}, line {line_number}: {error_message}"
+    
+    def __str__(self):
+        return self.error_message
+
+#--------------learn about airflow-----#
+
+download airflow application user in any folder
+
+installation command
+bash>> winget install -e --id Astronomer.Astro
+
+use in any folder command
+bash>> astro dev init
+
+weather api key(free): https://api.open-meteo.com/v1/forecast?latitude=72.5&longitude=25.6&current_weather=true
+
+#--------------dataset extraction-----#
+in this we try to extract the data from databse(mysql, postgres,and any source) and save to csv
+
+for this we create 
+artfacts folder 
+in artfacts we create raw folder , where we store extract data from any database source
+
+example : we are extract the data from mysql database store in artfacts/raw/data.csv location
+we create config folder , in config we create db_config.py file where we store configuration of mysql database connection
+we also create database_extraction.py file , for write the code for extracting the data from database
+
+for this we import this module
+import os
+import csv
+import mysql.connector
+from mysql.connector import Error
+from config.db_config import DB_CONFIG
+from src.custom_exception import CustomException
+from src.logger  import get_logger
+
+logger = get_logger(__name__)
+
+for this we create MySql_Data_Extractor class, in class we create function like:
+db_connect :for making the connection to database
+db_disconnect: for disconnection to  database
+extract_data_save_to_csv: this main function we extract the data save in artfacts/raw/data.csv location
+
+
+#--------------dataset ingestion-----#
+in this step we are doing split of raw data into train and test dataset
+
+
+new thing we are also creating path_config.py in config folder
+for set the path of folder and file
+ex: 
+import os
+AIRTIFACTS_DIR = "./artifacts"
+RAW_DATA_PATH = os.path.join(AIRTIFACTS_DIR, "raw", "data.csv")
+
+INGESTION_DIR = os.path.join(AIRTIFACTS_DIR, "ingested_data") 
+TRAIN_PATH = os.path.join(INGESTION_DIR, "train_data.csv")
+TEST_PATH = os.path.join(INGESTION_DIR, "test_data.csv")
+
+for this we create a ingestion folder we artfacts folder for storing the train and test dataset
+also create a data_ingestion.py file for write code of data ingestion
+
+this step we importing module 
+import os
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from src.custom_exception import CustomException
+import sys
+from config.path_config import *
+from src.logger import get_logger
+
+logger = get_logger(__name__)
+
+for this  we create class of Data_Ingestion in this class we some function for data ingestion
+create_ingestion_data_dir: for creating the ingested_data folder store train and test data 
+split_data : here we load , split into train and test and finally save into ingested_data folder
+
+#--------------dataset processing-----#
+in this step we are are doing cleaning of dataset by using data processing step
+
+for this we create processed_data folder in artifacts folder
+also create data_prcessing.py file for write step of data processing 
+in path_config.py file 
+PROCESSED_DIR = os.path.join(ARTIFACTS_DIR, "processed_data")
+PROCESSED_DATA_PATH = os.path.join(PROCESSED_DIR, "processed_train.csv")
+
+in file we create a Data_Processor class,
+in this class we some function which suitable for this dataset, after deep research of data using jupyter notebook
+for this step ,we need to first research about the dataset in jupyter like tool, so that you have rough what you need to do in data processing step 
+def run(self):
+    try:
+        logger.info("starting the pipeline of data processing")
+            
+        df = self.load_data()
+
+        df = self.drop_unwanted_cols(df, ["MyUnknownColumn","id"])
+
+        outliers_cols = ['Flight Distance', 'Departure Delay in Minutes', 'Arrival Delay in Minutes', 'Checkin service']
+        df = self.handle_outlier(df, outliers_cols)
+
+        df = self.handle_null_value(df, "Arrival Delay in Minutes")
+
+        self.save_processed_data(df)
+
+        logger.info("completed the pipeline of data processing")
+
+    except CustomException as ce:
+        logger.error(str(ce))
+
+#--------------feature engineering-----#
+here we are doing feature engineering for make data readable for computer for training the machine learning model_selection
+
+for this were create engineering_data folder in artfacts folder for store data which is  process after the  feature engineering 
+also create feature_engineering.py file for writing for feature engineering
+utils folder and helper file for write code which is use multiple time in multiple file
+
+in path_config.py file:
+ENGINEERING_DIR =  os.path.join(ARTIFACTS_DIR, 'engineering_data')
+ENGINEERING_DATA_PATH = os.path.join(ENGINEERING_DIR, 'engineering_train.csv')
+
+in file we create a Feature_Engineer class and in class we function for process of feature engineering
+  def run(self):
+        try: 
+            logger.info("starting the feature engineering pipeline....")
+            
+            self.load_data()
+            self.feature_constructor()
+            self.bin_age()
+            self.label_encoding()
+            self.feature_selection()
+            self.save_data()
+            
+            logger.info("ended the feature engineering pipeline....")
+        
+        except CustomException as ce:
+            logger.error(str(ce))
+    
+#--------------( Tensorboard: multiple model train and evulate )-----#
+it help to save data of machine learning  training model in different configuration of model 
+and help to compare this machine learning model so that we choose best model of out project
+
+there 3 thing in Tensorboard:
+scalar: it help to numerical data of ml model
+example:
+self.writer.add_scalar(f"accuracy/{accuracy}",accuracy, idx )
+self.writer.add_scalar(f"precision/{precision}",precision, idx )
+self.writer.add_scalar(f"recall/{recall}",recall, idx )
+self.writer.add_scalar(f"f1/{f1}",f1, idx )
+
+text: it help to store data in text formatted
+self.writer.add_text(f"model details {name}","Metric => accuracy: {accuracy} , precision : {precision}, recall : {recall}, f1: {f1}")
+
+
+figure: it help to store visual figure data of ml 
+cm = confusion_matrix(y_test, y_pred)
+
+fig, ax = plt.subplots(figsize=(5,5))
+im = ax.matshow(cm, cmap = plt.cm.Blues, alpha=0.7)
+
+plt.colorbar(im)
+
+for i in range(cm.shape[0]):
+    for j in range(cm.shape[1]):
+        ax.text(x=j, y=i, s=cm[i, j], va='center', ha='center')
+        
+plt.xlabel("predicted labels")
+plt.ylabel("true/actual labels")
+plt.title(f"confusion martix for {model_name}")
+
+self.writer.add_figure(f"Confusion_martix/{model_name}", fig, global_step=step)
+plt.close(fig)
+        
+
+for this we create model_selection.py file for writing code of line
+
+ def run(self):
+        try: 
+            logger.info("starting the model training and selection pipeline....")
+            
+            x, y = self.load_data()
+            x_train, x_test, y_train, y_test = self.split_data(x, y)
+            self.train_and_evaluate(x_train, x_test, y_train, y_test)
+            
+            logger.info("ended the model training and selection pipeline....")
+        
+        except CustomException as ce:
+            logger.error(str(ce))
+
+
+
+#--------------( MlFlow: best model train and evulate in diff configuration )-----#
+it help to save data of machine learning  training model in different configuration of model 
+and help to compare this machine learning model so that we choose best model of out project
+
+
+
+
+
+
+
