@@ -9,6 +9,9 @@ The GoLift ecosystem consists of several specialized modules working in harmony 
 ## 🚀 The Vision
 GoLift aims to simplify fitness progression by leveraging data-driven insights and a premium user interface. From elite athletes to beginners, GoLift provides the tools to track, analyze, and optimize every rep.
 
+![Insights Dashboard](./landing/public/insights_dashboard.png)
+*Data-driven insights for high-performance training.*
+
 ---
 
 ## 🛠️ Project Modules
@@ -23,6 +26,13 @@ The repository is organized into distinct sub-projects, each with its own dedica
 | **[Landing](./landing)** | Marketing Page | Next.js 15, Framer Motion |
 | **[MLOps](./mlops)** | Intelligence Engine | Python, Scikit-learn, MLFlow |
 | **[Mobile](./phone/GoLiftApp)** | Native Application | React Native 0.84, TypeScript |
+
+<div align="center">
+  <img src="./landing/public/active_workout_view.png" width="30%" />
+  <img src="./landing/public/session_start.png" width="30%" />
+  <img src="./landing/public/user_profile.png" width="30%" />
+</div>
+<p align="center"><i>Seamless experience across all platforms.</i></p>
 
 ---
 
@@ -60,6 +70,9 @@ The entire ecosystem adheres to a unified design system to ensure a premium, pre
 - **Colors**: Modern dark mode with OKLCH-based gradients.
 - **Typography**: Space Grotesk (Headings) and Inter (Body).
 - **Aesthetics**: Glassmorphism, smooth animations, and responsive layouts.
+
+![Tauri Desktop View](./landing/public/tauri_window_show_app.png)
+*Unified premium aesthetic across the GoLift Desktop suite.*
 
 ---
 
