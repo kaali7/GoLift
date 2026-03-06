@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# tauri / rust
+src-tauri/target/
+src-tauri/gen/
+
+# build output
+dist/
+build/
+out/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env files
+.env
+.env*.local
+
+# misc
+.DS_Store
+*.pem
